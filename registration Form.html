@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://media.istockphoto.com/id/1300179502/video/3d-fluid-creative-animated-background-glassmorphism-style-new-trend-2021.jpg?s=640x640&k=20&c=-azjjmTaL61QoiU35X5spc6F2llkLgZM9K7_u3hj70o=');
+        }
+     
+        fieldset {
+        margin: 0 auto; 
+        width: 50%; 
+        margin-top: 9%; 
+        }
+        input {
+            width: 95%;
+            height: 20px;
+        }
+        label {
+            text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form action="#">
+    <fieldset>
+        <h1 style="text-align: center;">Book A Call</h1>
+        <h3 style="text-align: center;">Book a call slot and our representative will call you within 1hr of selected time.</h3>
+        <hr>
+        <label>Name</label>
+        <br>
+        <input type="text" id="uname" value="naveen">
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" id="uemail" value="naveen@gamil.com">
+        <br>
+        <label>Phone</label>
+        <br>
+        <input type="number" id="unumber" value="56565656">
+        <br>
+        <label>Time For Call</label>
+        <br>
+        <input type="date" style="width: 47%" id="udate" value="2022-12-12">
+        <input type="time" style="width: 47%" id="utime" value="07:45">
+        <br>
+        <br>
+       <button style="width: 97%; height: 25px; background-color: orange; color: white; font-size: 20px;">Get A Call</button>
+    </fieldset>
+    </form>
+    <script>
+        console.log(document.getElementById('uname').value);
+        console.log(document.getElementById('uemail').value);
+        console.log(document.getElementById('unumber').value);
+        console.log(document.getElementById('udate').value);
+        console.log(document.getElementById('utime').value);
+    </script>
+    
+</body>
+</html>
